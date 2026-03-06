@@ -46,18 +46,24 @@ Note: Audio processing may be added in later phases if transcripts are not avail
 
 ---
 
-## 3. Canonical Data Model
+## 3. Standard Data Format
 Define the standard object every item becomes.
 
-Example fields:
+All sources will be converted into one standard format so they can be stored and displayed consistently.
+
+Draft fields:
+
 - id
+- source_name
 - title
-- source
-- url
+- author
 - published_date
+- url
 - raw_text
-- summary (optional later)
-- tags (optional later)
+- summary (optional)
+- tags (optional)
+
+This format may change after reviewing the actual data from the selected sources.
 
 ---
 
