@@ -18,31 +18,24 @@ The initial sources for Phase 1 are selected based on two criteria:
 
 These sources focus on emerging technology, venture capital, and future-oriented investment themes.
 
-### 1. Peter Diamandis Newsletter
-Source: Diamandis Newsletter / Abundance / Moonshots
+Source: Metatrends (Peter Diamandis)
 Type: Newsletter
 Access Method: RSS
-Reason: Future technology trends, longevity, AI, space, and exponential technologies.
+URL: https://metatrends.substack.com/feed
+Reason: Future technology and exponential tech trends relevant to investment research.
 
-### 2. ARK Invest Research
-Source: ARK Invest Blog / Research
-Type: Research blog
+Source: ARK Invest Research
+Type: Research / Blog
 Access Method: RSS
-Reason: Deep research into disruptive innovation sectors including AI, robotics, energy storage, and genomics.
+Feed URL: https://ark-invest.com/feed/
+Reason: Research and commentary on disruptive innovation including AI, robotics, genomics, crypto, and energy.
 
-### 3. Andreessen Horowitz (a16z)
-Source: a16z Blog / Newsletter
-Type: VC research commentary
+Source: a16z Newsletter
+Type: Newsletter / Blog
 Access Method: RSS
-Reason: Venture capital perspective on emerging technology sectors and startup ecosystems.
+Feed URL: https://www.a16z.news/feed
+Reason: Commentary and analysis on startups, AI, software, and emerging technology.
 
-### 4. All-In Podcast
-Source: Podcast
-Type: Podcast / YouTube
-Access Method: Initially episode metadata + transcript if available
-Reason: Technology, venture capital, geopolitics, and macro discussions relevant to innovation investing.
-
-Note: Audio processing may be added in later phases if transcripts are not available.
 
 ---
 
