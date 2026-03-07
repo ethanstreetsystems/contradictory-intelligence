@@ -5,7 +5,7 @@ Ingest → Normalize → Store → Display
 
 Goal: prove the system can automatically collect market information and show it in one place.
 
-Define what Phase 1 includes and excludes.
+Define what Version 1.0 includes and excludes.
 
 ---
 
@@ -66,7 +66,7 @@ This format may change after reviewing the actual data from the selected sources
 
 ## 4. Architecture + Stack
 
-Define the core technology choices used in the Phase 1 MVP.
+Define the core technology choices used in the Version 1.0 MVP.
 
 The system architecture follows a simple pipeline:
 
@@ -376,19 +376,64 @@ Version 1.0 should focus on transforming raw source content into structured inte
 ---
 
 ## 9. Deployment + Environment
-Define:
-- where the system runs
-- how jobs are scheduled
-- API key / secret management
+
+Define where the system runs and how it is operated.
+
+
+### Where the System Runs
+
+Version 1.0 will run as a small cloud-hosted application.
+
+Components include:
+
+- Python backend
+- PostgreSQL database
+- simple web interface
+
+For the MVP, these components can run on a single cloud server.
+
+
+### Job Scheduling
+
+A scheduled job runs the ingestion and analysis pipeline.
+
+Schedule:
+
+- every other day
+
+Each run performs the following steps:
+
+1. check RSS feeds
+2. ingest new items
+3. clean article text
+4. run AI analysis
+5. store results in the database
+
+
+### API Keys and Secrets
+
+The system will need some private credentials such as:
+
+- AI API key
+- database password
+
+These will not be stored directly in the code.
+
+Instead, they will be stored in the system environment and the application will read them when it runs.
 
 ---
 
-## 10. Phase 1 Success Criteria
-Define what “done” means.
+## 10. Version 1.0 Success Criteria
 
-Examples:
-- items ingest automatically
-- no duplicate records
-- feed displays correctly
-- links work
-- data matches original sources
+Define what “done” means for Version 1.0 of the CI system.
+
+Version 1.0 is considered complete when the following conditions are met:
+
+- the system pulls new items from the selected RSS feeds automatically
+- new items are stored in the database
+- duplicate articles are not stored
+- article text is successfully extracted from the source
+- AI output is generated for each item (summary, analysis, investment implications)
+- the feed page displays stored items correctly
+- each item links to the original source article
+- displayed data matches the original source content
