@@ -150,14 +150,102 @@ Store in database
 Frontend displays items
 
 ---
-
 ## 5. Ingestion + Normalization
-For each source define:
+
+For each source, define:
+
 - how data is fetched
 - how content is parsed
 - deduplication logic
 - error handling
 - how ingestion state is tracked
+
+
+### Source 1: Metatrends (Peter Diamandis)
+
+How data is fetched:
+
+- The system checks the RSS feed URL
+- New items are pulled from the feed
+
+Content parsing:
+
+- Extract title, author, publish date, article URL, description, and full article text from the RSS item
+- Use the `content:encoded` field when available
+- Remove HTML tags and clean the text before storing
+
+Deduplication logic:
+
+- Use the article URL as the main unique identifier
+- If the URL already exists in the database, skip it
+
+Error handling:
+
+- If the feed cannot be reached, log the error and move on
+- If a field is missing, store the item with the available fields and flag it for review
+
+Ingestion state tracking:
+
+- Track the last successful run time
+- Track which article URLs have already been stored
+
+
+### Source 2: ARK Invest
+
+How data is fetched:
+
+- The system checks the RSS feed URL
+- New items are pulled from the feed
+
+Content parsing:
+
+- Extract title, publish date, article URL, description, and category from the RSS item
+- If full article text is not included in the feed, open the article URL and extract the text from the page
+- Clean the text before storing
+
+Deduplication logic:
+
+- Use the article URL as the main unique identifier
+- If the URL already exists in the database, skip it
+
+Error handling:
+
+- If the feed cannot be reached, log the error and move on
+- If the article page cannot be parsed, store the metadata only and flag it for review
+
+Ingestion state tracking:
+
+- Track the last successful run time
+- Track which article URLs have already been stored
+
+
+### Source 3: a16z
+
+How data is fetched:
+
+- The system checks the RSS feed URL
+- New items are pulled from the feed
+
+Content parsing:
+
+- Extract title, author, publish date, article URL, description, and full article text from the RSS item
+- Use the `content:encoded` field when available
+- Remove HTML tags and clean the text before storing
+
+Deduplication logic:
+
+- Use the article URL as the main unique identifier
+- If the URL already exists in the database, skip it
+
+Error handling:
+
+- If the feed cannot be reached, log the error and move on
+- If a field is missing, store the item with the available fields and flag it for review
+
+Ingestion state tracking:
+
+- Track the last successful run time
+- Track which article URLs have already been stored
 
 ---
 
