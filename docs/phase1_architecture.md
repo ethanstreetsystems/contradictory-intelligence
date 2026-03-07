@@ -1,5 +1,19 @@
 # Phase 1: Product Architecture and Initial Data Sources
 
+## Terminology
+
+For clarity, this document uses the following terms:
+
+**Phase 1**
+
+Refers to the first phase of the CI project.  
+This phase focuses on defining the system architecture, data sources, and core design.
+
+**Version 1.0**
+
+Refers to the first working version of the CI system (the MVP).  
+Version 1.0 demonstrates the core capability of the platform: automatically ingesting research sources, generating AI analysis, and displaying structured market intelligence.
+
 ## 1. Golden Path MVP
 Ingest → Normalize → Store → Display
 
