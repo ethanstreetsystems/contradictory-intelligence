@@ -1,10 +1,15 @@
 import urllib.request
 import xml.etree.ElementTree as ET
 
-RSS_URL = "https://metatrends.substack.com/feed"
+RSS_FEEDS = {
+    "MetaTrends": "https://metatrends.substack.com/feed",
+    "ARK Invest": "https://ark-invest.com/feed/",
+    "a16z": "https://www.a16z.news/feed"
+}
 
 
-def fetch_rss_titles(url):
+def fetch_rss_titles(source_name, url):
+
     request = urllib.request.Request(
         url,
         headers={
@@ -19,18 +24,20 @@ def fetch_rss_titles(url):
 
     channel = root.find("channel")
     if channel is None:
-        print("No channel found in RSS feed.")
+        print(f"\nNo channel found for {source_name}")
         return
 
     items = channel.findall("item")
 
-    print("\nLatest RSS Articles\n")
+    print(f"\n===== {source_name} =====\n")
 
-    for item in items[:10]:
+    for item in items[:5]:
         title = item.find("title")
         if title is not None and title.text is not None:
             print("-", title.text)
 
 
 if __name__ == "__main__":
-    fetch_rss_titles(RSS_URL)
+
+    for source_name, url in RSS_FEEDS.items():
+        fetch_rss_titles(source_name, url)
