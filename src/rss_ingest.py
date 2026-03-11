@@ -3,7 +3,15 @@ import xml.etree.ElementTree as ET
 import json
 import os
 from datetime import datetime, timezone
+import re
 
+def clean_html_text(text):
+    if not text:
+        return None
+
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
 RSS_FEEDS = {
     "MetaTrends": "https://metatrends.substack.com/feed",
@@ -50,6 +58,9 @@ def fetch_rss_items(source_name, url):
         link = item.find("link")
         pub_date = item.find("pubDate")
         description = item.find("description")
+        clean_description = clean_html_text(
+            description.text if description is not None and description.text is not None else None
+)
 
         if title is not None and title.text is not None:
             print("-", title.text)
@@ -60,6 +71,7 @@ def fetch_rss_items(source_name, url):
                 "link": link.text if link is not None else None,
                 "published": pub_date.text if pub_date is not None else None,
                 "description": description.text if description is not None and description.text is not None else None,
+                "clean_description": clean_description,
                 "collected_at": datetime.now(timezone.utc).isoformat(),
             }
 

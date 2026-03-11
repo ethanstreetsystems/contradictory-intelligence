@@ -5,7 +5,8 @@
     "link": "https://metatrends.substack.com/p/announcing-35m-future-vision-xprize",
     "published": "Mon, 09 Mar 2026 16:36:39 GMT",
     "description": "The worlds largest sci-fi film competition. Create a 3-minute sci-fi trailer depicting an optimistic, abundant future for humanity. The grand prize winner gets $2.6M+",
-    "collected_at": "2026-03-10T17:09:49.094223+00:00"
+    "clean_description": "The worlds largest sci-fi film competition. Create a 3-minute sci-fi trailer depicting an optimistic, abundant future for humanity. The grand prize winner gets $2.6M+",
+    "collected_at": "2026-03-11T10:10:27.607438+00:00"
   },
   {
     "source": "MetaTrends",
@@ -13,7 +14,8 @@
     "link": "https://metatrends.substack.com/p/ubi-uhi-and-the-race-between-utopia",
     "published": "Sun, 08 Mar 2026 18:50:37 GMT",
     "description": "Andrew Yang is speaking at our Abundance Summit today.",
-    "collected_at": "2026-03-10T17:09:49.094278+00:00"
+    "clean_description": "Andrew Yang is speaking at our Abundance Summit today.",
+    "collected_at": "2026-03-11T10:10:27.607468+00:00"
   },
   {
     "source": "MetaTrends",
@@ -21,7 +23,8 @@
     "link": "https://metatrends.substack.com/p/ray-kurzweil-the-man-who-predicted",
     "published": "Sat, 07 Mar 2026 16:01:14 GMT",
     "description": "In 1999, Ray Kurzweil made a prediction that sounded insane: computers would achieve human-level intelligence by 2029.",
-    "collected_at": "2026-03-10T17:09:49.094290+00:00"
+    "clean_description": "In 1999, Ray Kurzweil made a prediction that sounded insane: computers would achieve human-level intelligence by 2029.",
+    "collected_at": "2026-03-11T10:10:27.607487+00:00"
   },
   {
     "source": "MetaTrends",
@@ -29,7 +32,8 @@
     "link": "https://metatrends.substack.com/p/when-ai-safety-collapsed-agents-took",
     "published": "Fri, 06 Mar 2026 16:03:02 GMT",
     "description": "When AI Safety Collapsed, Agents Took Over, and $135 Billion Reshaped the Infrastructure",
-    "collected_at": "2026-03-10T17:09:49.094297+00:00"
+    "clean_description": "When AI Safety Collapsed, Agents Took Over, and $135 Billion Reshaped the Infrastructure",
+    "collected_at": "2026-03-11T10:10:27.607501+00:00"
   },
   {
     "source": "MetaTrends",
@@ -37,7 +41,8 @@
     "link": "https://metatrends.substack.com/p/clawpilled-meet-your-ai-chief-of",
     "published": "Wed, 04 Mar 2026 15:50:50 GMT",
     "description": "(And, you&#8217;ll probably be too excited to sleep as well!)",
-    "collected_at": "2026-03-10T17:09:49.094304+00:00"
+    "clean_description": "(And, you&#8217;ll probably be too excited to sleep as well!)",
+    "collected_at": "2026-03-11T10:10:27.607513+00:00"
   },
   {
     "source": "ARK Invest",
@@ -45,7 +50,8 @@
     "link": "https://www.ark-invest.com/white-papers/rethink-asset-allocation",
     "published": "Wed, 27 May 2020 22:55:00 GMT",
     "description": "ARK identifies problems associated with traditional \u201cstyle boxes\u201d and argues why investors should rethink asset allocation towards innovation strategies.",
-    "collected_at": "2026-03-10T17:09:50.228877+00:00"
+    "clean_description": "ARK identifies problems associated with traditional \u201cstyle boxes\u201d and argues why investors should rethink asset allocation towards innovation strategies.",
+    "collected_at": "2026-03-11T10:10:27.956892+00:00"
   },
   {
     "source": "ARK Invest",
@@ -53,31 +59,35 @@
     "link": "https://www.ark-invest.com/white-papers/3d-printing-white-paper",
     "published": "Thu, 20 Oct 2016 14:47:00 GMT",
     "description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
-    "collected_at": "2026-03-10T17:09:50.228896+00:00"
+    "clean_description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
+    "collected_at": "2026-03-11T10:10:27.956961+00:00"
   },
   {
     "source": "ARK Invest",
-    "title": "Bitcoin As An Investment",
-    "link": "https://www.ark-invest.com/white-papers/bitcoin-part-two",
-    "published": "Thu, 17 Sep 2020 22:11:00 GMT",
-    "description": "We explore bitcoin as an emerging asset. While many investors question its merit, in our view bitcoin is the most compelling monetary asset since gold.",
-    "collected_at": "2026-03-10T17:09:50.228903+00:00"
-  },
-  {
-    "source": "ARK Invest",
-    "title": "Impact Investing: Is Innovation the Key to Accelerating Progress toward the United Nations\u2019 Sustainable Development Goals?",
-    "link": "https://www.ark-invest.com/white-papers/impact-investing",
-    "published": "Tue, 11 May 2021 19:45:00 GMT",
-    "description": "Impact Investing: Is innovation the key to accelerating progress toward the United Nations\u2019 Sustainable Development Goals?",
-    "collected_at": "2026-03-10T17:09:50.228911+00:00"
-  },
-  {
-    "source": "ARK Invest",
-    "title": "The Future of Autos and Trucks is Electric",
-    "link": "https://www.ark-invest.com/white-papers/electric-vehicles-white-paper",
-    "published": "Fri, 06 Oct 2017 15:18:00 GMT",
+    "title": "Why Self-Driving Cars Could Change Everything",
+    "link": "https://www.ark-invest.com/white-papers/self-driving-cars-white-paper",
+    "published": "Wed, 25 Oct 2017 15:22:00 GMT",
     "description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
-    "collected_at": "2026-03-10T17:09:50.228918+00:00"
+    "clean_description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
+    "collected_at": "2026-03-11T10:10:27.957013+00:00"
+  },
+  {
+    "source": "ARK Invest",
+    "title": "Thematic Investing For An Exponential World",
+    "link": "https://www.ark-invest.com/white-papers/thematic-investing-white-paper",
+    "published": "Tue, 15 Nov 2016 16:42:00 GMT",
+    "description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
+    "clean_description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
+    "collected_at": "2026-03-11T10:10:27.957030+00:00"
+  },
+  {
+    "source": "ARK Invest",
+    "title": "Bitcoin: Securing The Network",
+    "link": "https://www.ark-invest.com/white-papers/bitcoin-network-white-paper",
+    "published": "Sat, 01 Aug 2015 14:52:00 GMT",
+    "description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
+    "clean_description": "ARK Invest focuses solely on disruptive innovation and offers investment solutions to investors seeking long-term growth in the public markets.",
+    "collected_at": "2026-03-11T10:10:27.957045+00:00"
   },
   {
     "source": "a16z",
@@ -85,7 +95,8 @@
     "link": "https://www.a16z.news/p/investing-in-nexthop",
     "published": "Tue, 10 Mar 2026 15:15:45 GMT",
     "description": "a16z invests in Nexthop's $500M Series B",
-    "collected_at": "2026-03-10T17:09:50.565697+00:00"
+    "clean_description": "a16z invests in Nexthop's $500M Series B",
+    "collected_at": "2026-03-11T10:10:28.061680+00:00"
   },
   {
     "source": "a16z",
@@ -93,7 +104,8 @@
     "link": "https://www.a16z.news/p/your-data-agents-need-context",
     "published": "Tue, 10 Mar 2026 14:03:23 GMT",
     "description": "The market has realized that data and analytics agents are essentially useless without the right context",
-    "collected_at": "2026-03-10T17:09:50.565750+00:00"
+    "clean_description": "The market has realized that data and analytics agents are essentially useless without the right context",
+    "collected_at": "2026-03-11T10:10:28.061704+00:00"
   },
   {
     "source": "a16z",
@@ -101,7 +113,8 @@
     "link": "https://www.a16z.news/p/top-100-gen-ai-consumer-apps-march",
     "published": "Mon, 09 Mar 2026 14:02:03 GMT",
     "description": "The latest results from our biannual deep-dive into AI apps",
-    "collected_at": "2026-03-10T17:09:50.565759+00:00"
+    "clean_description": "The latest results from our biannual deep-dive into AI apps",
+    "collected_at": "2026-03-11T10:10:28.061717+00:00"
   },
   {
     "source": "a16z",
@@ -109,7 +122,8 @@
     "link": "https://www.a16z.news/p/new-media-fellowship-apply-for-the",
     "published": "Fri, 06 Mar 2026 15:03:46 GMT",
     "description": "This next fellowship will kick off in April 2026 for a new group of 65 fellows",
-    "collected_at": "2026-03-10T17:09:50.565769+00:00"
+    "clean_description": "This next fellowship will kick off in April 2026 for a new group of 65 fellows",
+    "collected_at": "2026-03-11T10:10:28.061731+00:00"
   },
   {
     "source": "a16z",
@@ -117,6 +131,7 @@
     "link": "https://www.a16z.news/p/jared-isaacman-introducing-nasa-force",
     "published": "Thu, 05 Mar 2026 15:03:21 GMT",
     "description": "From the American Dynamism 2026 Summit",
-    "collected_at": "2026-03-10T17:09:50.565781+00:00"
+    "clean_description": "From the American Dynamism 2026 Summit",
+    "collected_at": "2026-03-11T10:10:28.061742+00:00"
   }
 ]
